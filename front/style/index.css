@@ -1,0 +1,125 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+ul {
+    padding: 0px;
+    margin: 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #000000;
+    width: 200px;
+    height: 200px;
+    background: rgb(252, 163, 185);
+    background-image: linear-gradient(to right, #fca3b9, #ffa4a6, #ffaa90, #ffb47a, #ffc168, #ffb76a, #ffad6e, #ffa472, #fd8b91, #df80b2, #a982c7, #4970b9);
+    font-family: 'Fredoka One', cursive;
+    border-radius: 200px;
+}
+
+.texte_logo {
+    margin-left: 22px;
+    margin-top: 43px;
+    font-size: 90px;
+}
+
+header {
+    background: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_container {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 400px
+}
+
+.logo_reseaux {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.menu {
+    margin-bottom: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+}
+
+.menu ul {
+    display: flex;
+    padding: none;
+    list-style: none;
+    margin-top: 0px;
+    justify-content: space-between;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: normal;
+}
+
+.menu li {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    color: black;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(179, 179, 179) 100%);
+    padding: 10px;
+    box-shadow: 0px 10px 13px -7px #424242
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.main_apropos {
+    display: flex;
+    justify-content: center;
+}
+
+.apropos_container {
+    width: 40%;
+    background: rgba(241, 241, 241, 0.726);
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main h1 {
+    margin: 0;
+    font-size: 45px;
+}
+
+.image_apropos {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+}

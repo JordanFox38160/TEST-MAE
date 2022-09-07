@@ -1,0 +1,31 @@
+.main_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.recup {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(250, 244, 166);
+    width: 100%;
+}
+
+.recup h2 {
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.recup p {
+    color: black;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.recupt_text {
+    width: 850px;
+    text-align: start;
+}
